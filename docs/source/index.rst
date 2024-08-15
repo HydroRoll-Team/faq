@@ -8,7 +8,7 @@ This is a template for documentation projects.
 
     about/glossary
     about/contributing
-    about/license
+    LICENSE <about/license>
 
 .. toctree::
     :maxdepth: 2
