@@ -16,3 +16,10 @@ This is a template for documentation projects.
     :caption: Contents
 
     contents/index
+
+.. toctree::
+    :hidden:
+    :caption: Helpings
+
+    changelog
+
