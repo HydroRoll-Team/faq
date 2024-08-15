@@ -8,10 +8,11 @@ This is a template for documentation projects.
 
     about/glossary
     about/contributing
-    LICENSE <about/license>
+    about/license
 
 .. toctree::
     :maxdepth: 2
+    :hidden:
     :caption: Contents
 
     contents/index
