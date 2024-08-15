@@ -7,7 +7,9 @@ This is a template for documentation projects.
     :hidden:
     :caption: About
 
-    about/index
+    about/glossary
+    about/contributing
+    about/license
 
 .. toctree::
     :maxdepth: 2
