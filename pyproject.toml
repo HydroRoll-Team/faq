@@ -1,0 +1,26 @@
+[project]
+name = "docs-template"
+version = "0.1.0"
+description = "Docs template for HydroRoll Team"
+authors = [
+    {name = "简律纯",email = "i@jyunko.cn"},
+]
+dependencies = [
+    "requests>=2.31.0",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
+[tool]
+[tool.pdm]
+[tool.pdm.dev-dependencies]
+docs = [
+    "furo>=2024.7.18",
+    "sphinx-autobuild>=2024.4.16",
+    "myst-parser>=3.0.1",
+    "sphinx>=7.4.7",
+    "tomli>=2.0.1",
+    "sphinx-intl>=2.2.0",
+    "sphinx-design>=0.6.0",
+]
