@@ -23,6 +23,8 @@ jobs:
           token: ${{ github.token }}
           tag: ${{ github.ref_name }}
           useGitmojis: false
+          includeInvalidCommits: true
+          reverseOrder: true
 
       - name: Create Release
         uses: ncipollo/release-action@v1.12.0
