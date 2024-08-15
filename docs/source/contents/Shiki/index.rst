@@ -8,8 +8,7 @@ Shiki
 
 
 .. toctree::
-    :hidden:
-
+    
     intro
     deploy
     useage
