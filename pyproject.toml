@@ -1,12 +1,11 @@
 [project]
-name = "docs-template"
+name = "FAQ"
 version = "0.1.0"
-description = "Docs template for HydroRoll Team"
+description = "FAQ for HydroRoll Team"
 authors = [
-    {name = "简律纯",email = "i@jyunko.cn"},
+    {name = "简律纯",email = "leader@hydroroll.com"},
 ]
 dependencies = [
-    "requests>=2.31.0",
 ]
 requires-python = ">=3.11"
 readme = "README.md"
