@@ -22,5 +22,6 @@ This is a template for documentation projects.
     :hidden:
     :caption: Helpings
 
+    development/index
     changelog
 
