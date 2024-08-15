@@ -5,10 +5,9 @@ This is a template for documentation projects.
 
 .. toctree::
     :hidden:
+    :caption: About
 
-    about/glossary
-    about/contributing
-    about/license
+    about/index
 
 .. toctree::
     :maxdepth: 2
