@@ -36,7 +36,6 @@ jobs:
           reverseOrder: true
           includeInvalidCommits: true
           useGitmojis: false
-          excludeTypes: build,docs,other,style
 
       - name: Create Release
         uses: ncipollo/release-action@v1.12.0
