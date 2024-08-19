@@ -1,4 +1,49 @@
 CQ码
 =====
 
-CQ码是一种特殊的字符串，用于在QQ中发送各种各样的消息。
+.. attention::
+    
+    使用CQ码时请注意自己所用的设备类型，使用手表设备登录的话是无法发送和接收部分CQ码的。
+    
+    **所以以下内容均不针对手表端。**
+
+CQ码是一种特殊消息类型的文本格式，用于在QQ中发送各种各样的消息。这是它的基本语法::
+        
+    [CQ:类型,参数=值,参数=值]
+
+at
+---
+
+.. tip::
+    
+    如果此人不在群内，可以使用name字段。
+    
+    .. code::
+        
+        [CQ:at,qq=123456,name=这人不在群里]
+    
+    显示: ``@这人不在群里``
+
+:@用户: [CQ:at,qq=用户QQ]
+:@全体成员: [CQ:at,qq=all]
+
+
+表情
+----
+
+.. caution::
+    
+    黑色背景的为手机上可以显示，但电脑端会显示文字的表情，画X的为未知表情，应该是下架了。
+    
+    face不等于emoji，目前gocq框架不支持emoji。
+
+
+:表情符号与id对应表如下: 
+
+|CQ_FACE_LIST_1| 
+
+|CQ_FACE_LIST_2|
+
+
+.. |CQ_FACE_LIST_1| image:: https://files.hydroroll.team/files/image/face_id_list_1.jpg
+.. |CQ_FACE_LIST_2| image:: https://files.hydroroll.team/files/image/face_id_list_2.jpg
