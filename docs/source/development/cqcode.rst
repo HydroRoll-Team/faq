@@ -40,10 +40,17 @@ at
 
 :表情符号与id对应表如下: 
 
-|CQ_FACE_LIST_1| 
-
-|CQ_FACE_LIST_2|
+    ====================  ======================
+    CQ 码列表 1            CQ 码列表 2  
+    ====================  ======================
+    |CQ_FACE_LIST_1|      |CQ_FACE_LIST_2| 
+    ====================  ======================
 
 
 .. |CQ_FACE_LIST_1| image:: https://files.hydroroll.team/files/image/face_id_list_1.jpg
+    :alt: CQ 码列表 1
+    :width: 50
 .. |CQ_FACE_LIST_2| image:: https://files.hydroroll.team/files/image/face_id_list_2.jpg
+    :alt: CQ 码列表 2
+    :width: 50
+
